@@ -1,7 +1,7 @@
 import os
 import json
 
-input_folder = 'input_scritps/'
+input_folder = 'input_scripts/'
 output_folder = 'output/'
 
 # Ensure the output folder exists
