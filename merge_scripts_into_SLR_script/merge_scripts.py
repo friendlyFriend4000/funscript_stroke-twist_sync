@@ -69,6 +69,9 @@ for filename in os.listdir(input_folder):
 
         print(file_contents_data)
 
+        with open(output_file_path, 'w') as output_file:
+            json.dump(file_contents_data, output_file, indent=2)
+
 # Save the modified data to the output file
 # with open(output_file_path, 'w') as output_file:
 #    json.dump(file_contents_data, output_file, indent=2)
