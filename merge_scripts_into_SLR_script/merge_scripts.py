@@ -38,7 +38,7 @@ for filename in os.listdir(input_folder):
         input_file_path = os.path.join(input_folder, filename)
 
         # Add 'twist_added' to the output file name
-        output_filename = f'merged.{filename}'
+        output_filename = f'merged_{filename}'
         output_file_path = os.path.join(output_folder, output_filename)
 
         with open(input_file_path, 'r') as input_file:
